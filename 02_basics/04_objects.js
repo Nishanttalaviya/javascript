@@ -50,3 +50,13 @@ console.log(Object.values(tunderuser));
 console.log(Object.entries(tunderuser));
 
 console.log(tunderuser.hasOwnProperty('isLoggleIn'));
+
+const course={
+    cousrename:"js ",
+    price:"999 ",
+    cousreInstructor:"nishant"
+}
+
+const{cousreInstructor}=course
+console.log(cousreInstructor)
+
