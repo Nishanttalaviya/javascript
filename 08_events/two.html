@@ -6,18 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Chai aur code</h1>
+    <h1>Dom aur code</h1>
     <button id="stop">Stop</button>
 </body>
 <script>
-    const sayHitesh = function(){
+    const saynishant = function(){
         console.log("Nishant");
     } 
     const changeText = function(){
         document.querySelector('h1').innerHTML = "best JS Event"
     }
 
-    const changeMe = setTimeout(changeText, 2000)
+      const changeMe = setTimeout(changeText, 2000)
 
     document.querySelector('#stop').addEventListener('click', function(){
         clearTimeout(changeMe)
