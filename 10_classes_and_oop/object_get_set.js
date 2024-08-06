@@ -12,5 +12,5 @@ const User = {
     }
 }
 
-const tea = Object.create(User)
-console.log(tea.email);
+const chai = Object.create(User)
+console.log(chai.email);
